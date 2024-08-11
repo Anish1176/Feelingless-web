@@ -68,9 +68,9 @@ pkg install git
 cd /storage/emulated/0/
 cd ~
 pkg update && pkg upgrade
-rm -rf SavingFromFormData
-git clone https://github.com/hackesofice/SavingFromFormData.git
-cd SavingFromFormData
+rm -rf Feelingless-web
+git clone https://github.com/Sr1417/Feelingless-web.git
+cd Feelingless-web
 pip install -r requirements.txt
 python main.py
 ```
@@ -83,8 +83,8 @@ rm -rf SavingFromFormData
 pkg update && pkg upgrade
 pkg install python -y
 pkg install git
-git clone https://github.com/hackesofice/SavingFromFormData.git
-cd SavingFromFormData
+git clone https://github.com/Sr1417/Feelingless-web.git
+cd Feelingless-web
 pip install -r requirements.txt
 start python main.py
 timeout /t 65
